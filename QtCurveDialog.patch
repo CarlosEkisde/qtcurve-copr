@@ -1,0 +1,11 @@
+--- qtcurve-master/CMakeLists.txt	2025-11-25 03:23:55.000000000 +0100
++++ qtcurve-master/CMakeLists.txt	2026-05-16 20:28:05.128151574 +0200
+@@ -45,7 +45,7 @@
+ qtc_option(ENABLE_QT5 "Building Qt5 theme." On)
+ qtc_option(ENABLE_QT6 "Building Qt6 theme." On)
+ qtc_option(ENABLE_GTK2 "Building Gtk2 theme." On)
+-qtc_option(QTC_QT6_ENABLE_KDE "Building Qt6 style with KDE Frameworks 6 support." Off)
++qtc_option(QTC_QT6_ENABLE_KDE "Building Qt6 style with KDE Frameworks 6 support." On)
+ # option(ENABLE_GTK3 "Building Gtk3 theme." On)
+ option(BUILD_TESTING "Enable testing." On)
+ option(QTC_ENABLE_X11 "Enable X11" On)
