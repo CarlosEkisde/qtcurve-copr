@@ -18,15 +18,15 @@ License:	LicenseRef-Callaway-LGPLv2 OR LGPL-3.0-only
 URL:            https://cgit.kde.org/?p=%{name}
 #Source0:        https://github.com/KDE/qtcurve/archive/%{version}.tar.gz#/qtcurve-%{version}.tar.gz
 # https://invent.kde.org/system/qtcurve
-Source0:       qtcurve-master.tar.gz
+Source0:       https://invent.kde.org/system/qtcurve/-/archive/master/qtcurve-master.tar.gz
 
 ## upstream patches (master branch)
 #Patch37: 0037-utils-gtkprops-Remove-unnecessary-constexpr-this-is-.patch
 #Patch66: 0066-Fix-build-with-Qt-5.15-missing-QPainterPath-include.patch
 
 ## downstream patches
-Patch101:  qtcurve-1.8.18-no_env.patch
-Patch102: QtCurveDialog.patch
+#Patch101:  qtcurve-1.8.18-no_env.patch
+Patch102: https://github.com/CarlosEkisde/qtcurve-copr/raw/refs/heads/main/QtCurveDialog.patch
 
 # for autosetup -Sgit
 BuildRequires:  git-core
